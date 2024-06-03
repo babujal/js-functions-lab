@@ -127,7 +127,6 @@ Complete the exercise in the space below:
 */
 const maxOfThree = (numOne, numTwo, numThree) => {
     let a
-    let b
     if (numOne > numTwo) {
         a = numOne
     }else if (numTwo > numOne) {
@@ -140,7 +139,7 @@ const maxOfThree = (numOne, numTwo, numThree) => {
 }
 
 
-console.log('Exercise 6 Result:', maxOfThree(12, 10, 2));
+console.log('Exercise 6 Result:', maxOfThree(12, 20, 2));
 
 /*
 Exercise 7: calculateTip()
